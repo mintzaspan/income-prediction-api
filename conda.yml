@@ -4,6 +4,6 @@ channels:
   - defaults
 dependencies:
   - mlflow=2.14.2
-  - python=3.8
+  - python=3.8.19
   - wandb=0.16.6 
   - pre-commit=3.5.0
