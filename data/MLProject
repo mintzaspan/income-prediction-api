@@ -1,0 +1,19 @@
+name: upload_data
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      input_artifact:
+       description: Path of input file of CSV type
+       type: str
+       default: "census.csv"
+      output_artifact:
+        description: Name to save artifact
+        type: str
+        default: raw_data.csv
+      output_type:
+        description: Type of output artifact
+        type: str
+        default: raw_data
+    command: "python upload_data.py {input_artifact} {output_artifact} {output_type}"

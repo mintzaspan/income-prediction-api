@@ -1,0 +1,9 @@
+name: upload_data
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - mlflow=2.14.2
+  - python=3.8.19
+  - wandb=0.16.6 
+  - pandas=2.0.0
