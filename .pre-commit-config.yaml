@@ -1,10 +1,11 @@
 repos:
-- repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.8.3
+- repo: https://github.com/hhatto/autopep8
+  rev: v2.3.1
   hooks:
-    - id: ruff
-      args: [--fix]
-    - id: ruff-format
+    - id: autopep8
+      additional_dependencies: [autopep8]
+      args: [--in-place, --aggressive, --aggressive]
+      types: [python]
 - repo: https://github.com/PyCQA/flake8
   rev: 7.1.1
   hooks:
