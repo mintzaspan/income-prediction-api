@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "autopep8>=2.3.1",
     "fastapi>=0.115.6",
     "flake8>=7.1.1",
     "gunicorn>=23.0.0",
@@ -13,7 +14,6 @@ dependencies = [
     "pre-commit>=4.0.1",
     "pytest>=8.3.4",
     "requests>=2.32.3",
-    "ruff>=0.8.3",
     "scikit-learn>=1.6.0",
     "uvicorn>=0.32.1",
 ]
