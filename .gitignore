@@ -2,3 +2,4 @@
 model/
 screenshots/
 __pycache__
+.pytest_cache
