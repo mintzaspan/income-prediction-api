@@ -1,0 +1,17 @@
+[project]
+name = "income-prediction-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.6",
+    "flake8>=7.1.1",
+    "gunicorn>=23.0.0",
+    "numpy>=2.2.0",
+    "pandas>=2.2.3",
+    "pytest>=8.3.4",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.0",
+    "uvicorn>=0.32.1",
+]
