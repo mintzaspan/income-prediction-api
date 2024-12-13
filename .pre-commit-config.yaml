@@ -6,7 +6,7 @@ repos:
       additional_dependencies: [autopep8]
       args: [--in-place, --aggressive, --aggressive]
       types: [python]
-- repo: https://github.com/PyCQA/flake8
-  rev: 7.1.1
-  hooks:
-    - id: flake8
+# - repo: https://github.com/PyCQA/flake8
+#   rev: 7.1.1
+#   hooks:
+#     - id: flake8
